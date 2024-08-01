@@ -1,0 +1,13 @@
+functionality
+
+display a portfolio
+
+(go to videographer for reference)
+
+display an input form asking for an email
+
+about page
+
+colors
+
+(gray scale professional look, add light blues)

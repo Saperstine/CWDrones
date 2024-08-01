@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+}
+
+.video-container {
+    height: 50vh;
+    width: 100vw;
+    position: relative;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  object-fit: fill;
+  z-index: 0;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.contact-bar {
+    display: flex;
+    position: fixed;
+    height: 5vh;
+    width: 100vw;
+    background-color: rgba(175, 219, 217, 0.8);
+    z-index: 2;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact-bar-subs {
+    font-size: 1vh;
+    text-decoration: underline;
+}
+
+.cw-drones {
+    padding-top: 10;
+    margin: 0;
+}
+
+.socials {
+
+}
+
+.main-page {
+    background-color:rgba(175, 219, 217, 0.8);
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+}
+
+.features {
+    display: flex;
+    background-color: rgb(180, 180, 180);
+    width: 20vw;
+    height: 30vh;
+    margin: 120px;
+    border-radius: 80px;
+    align-items:center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
+}
+
+.less-padding {
+    margin: 0;
+}
+
+
+
+
+.about-cody-main {
+    display: flex;
+    width: 100vw;
+    height: 120vh;
+    background-color: lightblue;
+}
+
+.cody-image-box {
+    width: 40vw;
+    height: 90vh;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 80px;
+}
+.cody-image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: fill;
+    z-index: 0;
+    border-radius: 80px;
+}
+
+.about-cody-text-box {
+    background-color: rgb(180, 180, 180);
+    width: 40vw;
+    height: 90vh;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 80px;
+    padding-left:
+}
+.about-cody-text {
+    /* border: 2px solid red; */
+    width: 20vw;
+    height: 10vh;
+    margin-left: 9vw;
+    text-align: center;
+    font-size: 19px;
+}
+
+.bottom-bar-main {
+    border: solid 2px black;
+    background: black;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bottom-bar-items {
+    /* border: 2px solid red; */
+    width: 20vw;
+    text-align: center;
+    color: white;
+    align-content: center;
+}
