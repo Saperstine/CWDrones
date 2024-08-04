@@ -48,7 +48,7 @@ body {
 .gallery-main {
     width: 100vw;
     height: fit-content;
-    background-color: lightblue;
+    background-color:rgba(143, 195, 211, 0.8);
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 170px;
