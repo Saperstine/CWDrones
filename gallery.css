@@ -84,7 +84,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 80vw;
     height: fit-content;
 
@@ -94,7 +94,7 @@ body {
     height: 34vh;
     width: 29vw;
     position: relative;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 30px;
 }
 
